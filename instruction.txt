@@ -1,0 +1,9 @@
+
+* For Featured Story
+	Go to the post by post menu and click post/write post  whom you want to make Featured Story there is Checkbox inside post option in bottom page and select that.
+* For YouTube Video
+	Go to YouTubeVideo from Side menu and add new, Title can be any thing	and enter only youtube ID.
+		eg : youtube url is "https://www.youtube.com/watch?v=cgib0bCzUpg"
+			and ID is  "cgib0bCzUpg"  write it without cotaiton mark (")/
+* Other Setting
+	There is Theme Setting in side menu check bottom.
