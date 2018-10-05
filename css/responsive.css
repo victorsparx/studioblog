@@ -15,7 +15,7 @@
 }
 @media (max-width:1160px){
 .fb_ltr{
-	width: 550px!important;
+	width: 100%!important;
 }
 
 }
@@ -262,18 +262,19 @@ body{padding:0px; margin:0px;}
 .main-row6 .slick-slide{height:488px!important;}
 .main-row6 .slick-prev{display:none!important;}
 .main-row6 .slick-next{display:none!important;}
-.main-sm{position: relative;     bottom: -790px;padding-bottom: 0px;}
+.main-sm{position: relative;    margin-top: 40px;     /*bottom: -790px;*/padding-bottom: 0px;}
+.iframvideo{height: 200px!important;}
 .youtube1{position: relative;        top: -325px;;padding-top: 0px;}
 .map-head{padding-top:0px;     padding-bottom: 4px;}
 .footer { background-color: #313131;padding-bottom: 180px!important;}
 .copyright{ position: absolute;bottom: -383px;}
-.footer-haed p{font-size:13px!important;}
+.footer-haed p{font-size:16px!important;font-weight: 600;transition: opacity .3s;}
 .footer-haed ul li a{font-size:16px!important;}
 .list-icon li a{font-size:25px!important;}
 .modal-nav-background {background-color: #393939; position: fixed;top:140px;bottom: 0;left: 82px;right: 0;opacity: 0;
  width: 0;height: 0;transition: opacity .3s ease-in-out, width 0s 2s, height 0s 2s;text-align: center; z-index: 4;}
  #video_player{width:100%;}
-.map-head h1{margin-bottom:0px; color: #fff;font-size: 30px;}
+.map-head h1{margin-bottom:0px; color: #fff!important;font-size: 30px;}
 /* end of blog  css*/
 
 .bg-two{padding-top:0px; background-position-x: 29%;     background-position-x: 29%;background-position-y: -36px;padding-bottom: 56px;}

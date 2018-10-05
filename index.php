@@ -50,7 +50,7 @@
         <div class="wrap">
           <div class="search"> 
             <form action="<?php echo esc_url( home_url( '/' ) ); ?>" method="get" id="searchform">
-              <input type="text" class="searchTerm" placeholder="Buscar" name="s" id="search" value="<?php the_search_query(); ?>">
+              <input type="text" class="searchTerm" placeholder="Buscar" name="s" id="search" value="<?php the_search_query(); ?>" required>
               <button type="submit" id="searchsubmit" class="searchButton">
                 <i class="fa fa-search"></i>
               </button>
@@ -180,7 +180,7 @@
         <?php query_posts('post_type=youtubevideo&posts_per_page=1&order=DESC');
                if(have_posts()) : the_post();
         ?>
-        <iframe  id="myFrame" width="100%" height="500px" src="https://www.youtube.com/embed/<?php echo $value1 = get_post_meta( $post->ID, '_my_meta_value_key1', true ); ?>?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+        <iframe class="iframvideo" id="myFrame" width="100%" style="width: 100%!important;"  src="https://www.youtube.com/embed/<?php echo $value1 = get_post_meta( $post->ID, '_my_meta_value_key1', true ); ?>?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
         <?php endif; wp_reset_query(); ?>
         <figcaption>
           <?php 

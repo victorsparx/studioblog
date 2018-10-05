@@ -5,8 +5,8 @@
 <section class="padd2 blog-pdd main-post">
       <div class="container">
         <div class="blog-post1">
-            <h2> Search</h2>
-            <h4>Search Result: <?php $run = the_search_query();  ?></h4>
+            <h2>Perquisite</h2>
+            <h4>Posts relacionados: <?php $run = the_search_query();  ?></h4>
             <hr>
            </div>
          <div class="row">
